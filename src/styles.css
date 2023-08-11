@@ -1,0 +1,77 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+*/
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  margin: 20px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.list {
+  display: inline-block;
+  justify-content: center;
+  margin: 35px;
+}
+
+.contact {
+  background-color: rgb(0, 0, 0);
+  padding: 12px;
+  margin: 15px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.about-page {
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-box {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.description-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-fluid {
+  padding: 20px;
+}
+
+.appointment {
+  margin: 20px;
+}
+
+.instagram {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin: 20px;
+}
+
+.work-photos {
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+}
